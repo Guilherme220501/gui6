@@ -1,5 +1,5 @@
 body{background: linear-gradient(to right,blue,black,red);text-align: center;}
-h1{color: black;font-size: 30px;font-style: oblique;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-shadow: 5px;}
+h1{color: white;font-size: 30px;font-style: oblique;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-shadow: 5px;}
 h2{color: white;font-size: 20px;font-style: italic;text-shadow: 5px;font-family: Arial, Helvetica, sans-serif;}
 p{color: white;font-size: 15px;font-family: 'Times New Roman', Times, serif;font-style: inherit;text-shadow: 5px;}
 thead{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-shadow: 5px;font-style: oblique;}
