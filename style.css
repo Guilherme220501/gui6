@@ -9,3 +9,4 @@ dl{padding: 5px;}
 dt{padding: 5px;text-align: left;font-size: 20px;font-style: oblique;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-shadow: 5px;}
 dd{padding: 5px;text-align: left;font-size: 15px;font-style: italic;font-family: Arial, Helvetica, sans-serif;text-shadow: 5px;}
 summary{margin: auto;width: 250px;border-radius: 10px 10px;}
+a{border-radius: 10px 10px;}
