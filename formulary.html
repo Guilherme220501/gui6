@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="channels4_profile.jpg" type="image/x-icon">
+    <title>Formulário</title>
+</head>
+<style>
+body{background: linear-gradient(to right,black,rgb(83, 72, 72),red);text-align: center;}
+h1{text-shadow: 5px;color: white;font-size: 30px;font-style: oblique;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h2{color: blue;font-size: 20px;font-style: italic;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-shadow: 5px;}
+p{color: white;font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-shadow: 5px;}
+fieldset{background-color: rgb(91, 91, 83);border-radius: 10px 10px;box-shadow: 8px 8px 8px red;border: 6px solid white;margin: auto;width: 300px;padding: 10px;}
+input{text-align: left;font-size: 15px;color: black;width: 300px;border: 6px solid black;background-color: aqua;border-radius: 10px 10px;}
+label{display: flex;flex-direction: column;padding: 5px;justify-content: center;align-items: center;color: white;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-shadow: 5px;}
+.color1{background-color: blue;box-shadow: 8px 8px 8px white;border-radius: 10px 10px;align-items: center;justify-content: center;padding: 10px;width: 100px;margin: auto;}
+.color2{background-color: black;box-shadow: 8px 8px 8px white;border-radius: 10px 10px;align-items: center;justify-content: center;padding: 10px;width: 100px;margin: auto;}
+select{background-color: black;color: yellow;border: 5px solid white;border-radius: 10px 10px;width: 150px;}
+button{background-color: aqua;color: red;border: 6px solid black;border-radius: 10px 10px;box-shadow: 5px 5px 5px white;}
+textarea{width: 300px;height: 200px;border-radius: 10px 10px;border: 6px solid red;margin: auto;font-style: initial;font-size: 15px;background-color: azure;}
+summary{margin: auto;width: 300px;border-radius: 10px 10px;}
+</style>
+<body>
+    <div id="text"><details><summary style="background-color: black;color: yellow;box-shadow: 5px 5px 5px white;">Cadastro de Brasileiros</summary>
+        <br>
+    <form>
+    <header><h1>Cadastro</h1></header>
+    <fieldset>
+        <label for="Nome">Nome</label>
+        <input type="text" id="Nome" name="Nome" required>
+        <label for="Nascimento">Nascimento</label>
+        <input type="date" id="Nascimento" name="Nascimento" required>
+        <label for="CPF">CPF</label>
+        <input type="number" id="CPF" name="CPF" required>
+        <label for="RG">RG</label>
+        <input type="number" id="RG" name="RG" required>
+        <label for="E-mail">E-MAIL</label>
+        <input type="email" name="E-MAIL" id="E-MAIL" required>
+        <label for="Endereço">Endereço</label>
+        <input type="text" id="Endereço" name="Endereço" required>
+        <br>
+        <br>
+        <label>Qual o seu Estado <b>Cívil</b>?</label>
+        <br>
+        <div class="color1">
+        <label for="Solteiro">Solteiro</label>
+        <input type="radio" value="Solteiro" name="Cívil" required>
+        <label for="Casado">Casado</label>
+        <input type="radio" value="Casado" name="Cívil" required>
+        <label for="Viuvo">Viuvo</label>
+        <input type="radio" value="Viuvo" name="Cívil" required>
+        <label for="Divorciado">Divorciado</label>
+        <input type="radio" value="Divorciado" name="Cívil" required>
+        </div>
+        <br>
+        <br>
+        <label>Qual a sua <b>Experiência</b>?</label>
+        <br>
+        <div class="color2">
+        <label for="Aprendiz">Aprendiz</label>
+        <input type="radio" value="Aprendiz" name="Experiência" required>
+        <label for="Novato">Novato</label>
+        <input type="radio" value="Novato" name="Experiência" required>
+        <label for="Iniciante">Iniciante</label>
+        <input type="radio" value="Iniciante" name="Experiência" required>
+        <label for="Mediano">Mediano</label>
+        <input type="radio" value="Mediano" name="Experiência" required>
+        <label for="Competente">Competente</label>
+        <input type="radio" value="Competente" name="Experiência" required>
+        <label for="Experiente">Experiente</label>
+        <input type="radio" name="Experiência" id="Experiente" required>
+        <label for="Master">Master</label>
+        <input type="radio" value="Master" name="Experiência" required>
+        </div>
+        <br>
+        <br>
+        <label>Qual o seu <b>Signo</b>?</label>
+        <br>
+        <select required>
+            <option value="" selected disabled>Selecione</option>
+            <option value="Gêmeos">Gêmeos</option>
+            <option value="Libra">Libra</option>
+            <option value="Sagitário">Sagitário</option>
+            <option value="Escorpião">Escorpião</option>
+            <option value="Aquario">Aquario</option>
+            <option value="Peixes">Peixes</option>
+            <option value="Leão">Leão</option>
+            <option value="Touro">Touro</option>
+            <option value="Ofiúco">Ofiúco</option>
+            <option value="Áries">Áries</option>
+            <option value="Virgem">Virgem</option>
+            <option value="Caranguejo">Caranguejo</option>
+            <option value="Cancêr">Cancêr</option>
+        </select>
+        <br>
+        <br>
+        <label>Fale sobre a sua <b>Experiência</b></label>
+        <br>
+        <textarea name="Experiência" id="Experiência" rows="6" required></textarea>
+        <br>
+        <button>Confirme</button>
+    </fieldset>
+    <br>
+    <p>Retorne para minha <a href="index.html" target="_blank" rel="external" style="background-color: aqua;color: red;border-radius: 10px 10px;text-shadow: 5px;">1ªPágina</a></p>
+</form>    
+    </details></div>
+    <script src="script.js"></script>
+    <script>showAlert("Welcome my formulary")</script>
+</body>
+</html>
